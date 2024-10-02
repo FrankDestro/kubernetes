@@ -12,7 +12,6 @@ Install kubectl (terminal de linha de comando para manipular os cluster do kuber
 ```js
 cd Download
 ```
-
 3. Download kubectl
 ```js
 curl -LO https://dl.k8s.io/release/v1.24.2/bin/linux/amd64/kubectl
@@ -38,7 +37,7 @@ cd Download
 ```
 3. Download minikube
 ```js
-curl -Lo minikube https://storage.googleapis.com/minikube/releases/v1.26.0/minikube-linux-amd64
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd6
 ```
 4. Set permission
 ```js
@@ -46,7 +45,7 @@ chmod +x minikube
 ```
 4.Install minikube
 ```js
-sudo install minikube /usr/local/bin/
+sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
 ```
 5. Configure user group
 ```js
