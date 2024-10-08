@@ -65,4 +65,11 @@ minikube start
 
 ### Orquestrador de container 
 
+![kubernetesArquitetura](https://miro.medium.com/v2/resize:fit:1400/1*kSRH4T8S1YmAuHbpgQ3Ylw.png)
+
+![image](https://github.com/user-attachments/assets/e22ea78e-cca3-45f5-b4a3-af886f8e816c)
+
+
+### Control Panel 
+
 
